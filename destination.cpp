@@ -1,5 +1,6 @@
 #include "destination.hpp"
 
+Destination::Destination(){}
 Destination::Destination(int pos, string nm){
     position = pos;
     name = nm;
@@ -7,8 +8,8 @@ Destination::Destination(int pos, string nm){
 Destination::~Destination(){}
 
 void Destination::printPosition(){
-    cout << position;
+    cout << position << " ";
 }
 void Destination::printDestinationName(){
-    cout << name;
+    cout << name << " ";
 }

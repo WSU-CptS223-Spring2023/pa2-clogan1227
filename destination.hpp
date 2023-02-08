@@ -6,6 +6,7 @@ using std::cout;
 
 class Destination{
     public:
+    Destination();
     Destination(int pos, string nm);
     ~Destination();
 

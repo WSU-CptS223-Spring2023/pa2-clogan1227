@@ -6,8 +6,20 @@ ListMyJosephus::ListMyJosephus(int em, int en){
 }
 ListMyJosephus::~ListMyJosephus(){}
 
-void ListMyJosephus::clear(){}
-int ListMyJosephus::currentSize(){}
-bool ListMyJosephus::isEmpty(){}
-Destination ListMyJosephus::eliminateDestination(){}
-void ListMyJosephus::printAllDestinations(){}
+void ListMyJosephus::clear(){
+    list.clear();
+}
+int ListMyJosephus::currentSize(){
+    return list.size();
+}
+bool ListMyJosephus::isEmpty(){
+    return list.empty();
+}
+Destination ListMyJosephus::eliminateDestination(){
+    
+}
+void ListMyJosephus::printAllDestinations(){
+    for (auto& d : list){
+        d.printDestinationName();
+    }
+}

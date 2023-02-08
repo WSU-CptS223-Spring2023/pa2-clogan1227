@@ -6,8 +6,20 @@ VectorMyJosephus::VectorMyJosephus(int em, int en){
 }
 VectorMyJosephus::~VectorMyJosephus(){}
 
-void VectorMyJosephus::clear(){}
-int VectorMyJosephus::currentSize(){}
-bool VectorMyJosephus::isEmpty(){}
-Destination VectorMyJosephus::eliminateDestination(){}
-void VectorMyJosephus::printAllDestinations(){}
+void VectorMyJosephus::clear(){
+    vector.clear();
+}
+int VectorMyJosephus::currentSize(){
+    return vector.size();
+}
+bool VectorMyJosephus::isEmpty(){
+    return vector.empty();
+}
+Destination VectorMyJosephus::eliminateDestination(){
+    
+}
+void VectorMyJosephus::printAllDestinations(){
+    for (auto& d : vector){
+        d.printDestinationName();
+    }
+}
