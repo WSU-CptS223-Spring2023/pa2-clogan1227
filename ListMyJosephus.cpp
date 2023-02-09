@@ -23,3 +23,6 @@ void ListMyJosephus::printAllDestinations(){
         d.printDestinationName();
     }
 }
+void ListMyJosephus::pushBack(Destination d){
+    list.push_back(d);
+}

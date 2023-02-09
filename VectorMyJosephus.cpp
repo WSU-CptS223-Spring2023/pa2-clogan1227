@@ -16,10 +16,13 @@ bool VectorMyJosephus::isEmpty(){
     return vector.empty();
 }
 Destination VectorMyJosephus::eliminateDestination(){
-    
+
 }
 void VectorMyJosephus::printAllDestinations(){
     for (auto& d : vector){
         d.printDestinationName();
     }
+}
+void VectorMyJosephus::pushBack(Destination d){
+    vector.push_back(d);
 }
