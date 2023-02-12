@@ -15,8 +15,11 @@ int VectorMyJosephus::currentSize(){
 bool VectorMyJosephus::isEmpty(){
     return vector.empty();
 }
-Destination VectorMyJosephus::eliminateDestination(){
+Destination VectorMyJosephus::eliminateDestination(int i){
+    Destination rm(vector[i]);
+    vector.erase(vector.begin() + i - 1); //remove the object in the ith position
 
+    return rm;
 }
 void VectorMyJosephus::printAllDestinations(){
     for (auto& d : vector){

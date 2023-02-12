@@ -15,8 +15,13 @@ int ListMyJosephus::currentSize(){
 bool ListMyJosephus::isEmpty(){
     return list.empty();
 }
-Destination ListMyJosephus::eliminateDestination(){
-    
+Destination ListMyJosephus::eliminateDestination(int i){
+    std::list<Destination>::iterator it = list.begin();
+    std::advance(it, i-1);
+    Destination rm(*it);
+    list.erase(it);
+
+    return rm;
 }
 void ListMyJosephus::printAllDestinations(){
     for (auto& d : list){

@@ -9,7 +9,7 @@ class ListMyJosephus{
     void clear();
     int currentSize();
     bool isEmpty();
-    Destination eliminateDestination();
+    Destination eliminateDestination(int i);
     void printAllDestinations();
 
     void pushBack(Destination d);

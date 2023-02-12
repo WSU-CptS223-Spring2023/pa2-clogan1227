@@ -8,6 +8,7 @@ class Destination{
     public:
     Destination();
     Destination(int pos, string nm);
+    Destination(const Destination& copy);
     ~Destination();
 
     void printPosition();

@@ -7,7 +7,7 @@
 using std::ifstream;
 using std::string;
 
-void loadDestinations(VectorMyJosephus& vector){
+void loadDestinations(VectorMyJosephus& vector){ //FIGURE OUT M AND N VALUES. MAKE GET FUNCTIONS FOR THEM?
     ifstream infile;
     infile.open("destinations.csv", std::ios::in);
 
