@@ -19,7 +19,7 @@ int main(){
     // UNCOMMENT THIS BLOCK TO TEST RANDOM M AND N VALUES ON LIST AND VECTOR IMPLEMENTATIONS
     // srand(time(NULL));
     // int n = (rand() % 1024 + 1);
-    // int m = (rand() % n);
+    // int m = (rand() % n); 
     // ListMyJosephus l(m, n);
     // VectorMyJosephus v(m, n);
     // LIST IMPLEMENTATION
