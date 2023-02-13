@@ -17,17 +17,34 @@ bool ListMyJosephus::isEmpty(){
 }
 Destination ListMyJosephus::eliminateDestination(int i){
     std::list<Destination>::iterator it = list.begin();
-    std::advance(it, i-1);
+    std::advance(it, i);
     Destination rm(*it);
     list.erase(it);
 
     return rm;
 }
 void ListMyJosephus::printAllDestinations(){
+    cout << "\{";
     for (auto& d : list){
+        d.printPosition();
+        cout << ". ";
         d.printDestinationName();
+        cout << ", ";
     }
+    cout << "\}";
 }
 void ListMyJosephus::pushBack(Destination d){
     list.push_back(d);
+}
+int ListMyJosephus::getN(){
+    return n;
+}
+int ListMyJosephus::getM(){
+    return m;
+}
+void ListMyJosephus::setN(int en){
+    n=en;
+}
+void ListMyJosephus::setM(int em){
+    m=em;
 }

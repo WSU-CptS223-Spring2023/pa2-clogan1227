@@ -12,6 +12,11 @@ class ListMyJosephus{
     Destination eliminateDestination(int i);
     void printAllDestinations();
 
+    void setN(int en);
+    void setM(int em);
+    int getN();
+    int getM();
+
     void pushBack(Destination d);
 
     private:

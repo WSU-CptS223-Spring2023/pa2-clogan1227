@@ -1,0 +1,137 @@
+-----List Testing-----
+N = 4, M = 3
+Total CPU time: 0.004 milliseconds
+Average elimination time: 1.33333 microseconds
+
+N = 8, M = 3
+Total CPU time: 0.006 milliseconds
+Average elimination time: 0.857143 microseconds
+
+N = 16, M = 3
+Total CPU time: 0.008 milliseconds
+Average elimination time: 0.533333 microseconds
+
+N = 32, M = 3
+Total CPU time: 0.016 milliseconds
+Average elimination time: 0.516129 microseconds
+
+N = 64, M = 3
+Total CPU time: 0.032 milliseconds
+Average elimination time: 0.507937 microseconds
+
+N = 128, M = 3
+Total CPU time: 0.078 milliseconds
+Average elimination time: 0.614173 microseconds
+
+N = 256, M = 3
+Total CPU time: 0.195 milliseconds
+Average elimination time: 0.764706 microseconds
+
+N = 512, M = 3
+Total CPU time: 0.553 milliseconds
+Average elimination time: 1.08219 microseconds
+
+N = 1024, M = 3
+Total CPU time: 1.919 milliseconds
+Average elimination time: 1.87586 microseconds
+
+N = 512, M = 2
+Total CPU time: 0.614 milliseconds
+Average elimination time: 1.20157 microseconds
+
+N = 512, M = 4
+Total CPU time: 0.499 milliseconds
+Average elimination time: 0.976517 microseconds
+
+N = 512, M = 8
+Total CPU time: 0.673 milliseconds
+Average elimination time: 1.31703 microseconds
+
+N = 512, M = 16
+Total CPU time: 0.627 milliseconds
+Average elimination time: 1.22701 microseconds
+
+N = 512, M = 32
+Total CPU time: 0.658 milliseconds
+Average elimination time: 1.28767 microseconds
+
+N = 512, M = 64
+Total CPU time: 0.676 milliseconds
+Average elimination time: 1.3229 microseconds
+
+N = 512, M = 128
+Total CPU time: 0.655 milliseconds
+Average elimination time: 1.2818 microseconds
+
+N = 512, M = 256
+Total CPU time: 0.647 milliseconds
+Average elimination time: 1.26614 microseconds
+
+-----Vector Testing-----
+N = 4, M = 3
+Total CPU time: 0.005 milliseconds
+Average elimination time: 1.66667 microseconds
+
+N = 8, M = 3
+Total CPU time: 0.006 milliseconds
+Average elimination time: 0.857143 microseconds
+
+N = 16, M = 3
+Total CPU time: 0.013 milliseconds
+Average elimination time: 0.866667 microseconds
+
+N = 32, M = 3
+Total CPU time: 0.04 milliseconds
+Average elimination time: 1.29032 microseconds
+
+N = 64, M = 3
+Total CPU time: 0.105 milliseconds
+Average elimination time: 1.66667 microseconds
+
+N = 128, M = 3
+Total CPU time: 0.411 milliseconds
+Average elimination time: 3.23622 microseconds
+
+N = 256, M = 3
+Total CPU time: 1.164 milliseconds
+Average elimination time: 4.56471 microseconds
+
+N = 512, M = 3
+Total CPU time: 4.851 milliseconds
+Average elimination time: 9.49315 microseconds
+
+N = 1024, M = 3
+Total CPU time: 16.911 milliseconds
+Average elimination time: 16.5308 microseconds
+
+N = 512, M = 2
+Total CPU time: 5.756 milliseconds
+Average elimination time: 11.2642 microseconds
+
+N = 512, M = 4
+Total CPU time: 5.094 milliseconds
+Average elimination time: 9.96869 microseconds
+
+N = 512, M = 8
+Total CPU time: 4.808 milliseconds
+Average elimination time: 9.409 microseconds
+
+N = 512, M = 16
+Total CPU time: 4.518 milliseconds
+Average elimination time: 8.84149 microseconds
+
+N = 512, M = 32
+Total CPU time: 4.772 milliseconds
+Average elimination time: 9.33855 microseconds
+
+N = 512, M = 64
+Total CPU time: 3.761 milliseconds
+Average elimination time: 7.36008 microseconds
+
+N = 512, M = 128
+Total CPU time: 4.162 milliseconds
+Average elimination time: 8.14481 microseconds
+
+N = 512, M = 256
+Total CPU time: 4.494 milliseconds
+Average elimination time: 8.79452 microseconds

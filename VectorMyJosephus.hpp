@@ -12,6 +12,9 @@ class VectorMyJosephus{
     Destination eliminateDestination(int i);
     void printAllDestinations();
 
+    int getN();
+    int getM();
+
     void pushBack(Destination d);
 
     private:

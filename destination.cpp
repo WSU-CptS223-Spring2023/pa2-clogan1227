@@ -7,15 +7,15 @@ Destination::Destination(int pos, string nm){
 }
 Destination::Destination(const Destination& copy){
     if (this != &copy){
-        this->position = copy.position;
-        this->name = copy.name;
+        position = copy.position;
+        name = copy.name;
     }
 }
 Destination::~Destination(){}
 
 void Destination::printPosition(){
-    cout << position << " ";
+    cout << position;
 }
 void Destination::printDestinationName(){
-    cout << name << " ";
+    cout << name;
 }

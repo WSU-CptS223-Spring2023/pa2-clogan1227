@@ -17,15 +17,26 @@ bool VectorMyJosephus::isEmpty(){
 }
 Destination VectorMyJosephus::eliminateDestination(int i){
     Destination rm(vector[i]);
-    vector.erase(vector.begin() + i - 1); //remove the object in the ith position
+    vector.erase(vector.begin() + i); //remove the object in the ith position
 
     return rm;
 }
 void VectorMyJosephus::printAllDestinations(){
+    cout << "\{";
     for (auto& d : vector){
+        d.printPosition();
+        cout << ". ";
         d.printDestinationName();
+        cout << ", ";
     }
+    cout << "\}";
 }
 void VectorMyJosephus::pushBack(Destination d){
     vector.push_back(d);
+}
+int VectorMyJosephus::getN(){
+    return n;
+}
+int VectorMyJosephus::getM(){
+    return m;
 }
